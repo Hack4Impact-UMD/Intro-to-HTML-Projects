@@ -1,6 +1,7 @@
 
 /* Selector types: div, tag/type, id, attr
 */
+
 h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
     margin:auto;
@@ -10,7 +11,9 @@ p, h1, h2, h3, li {
     font-family: Arial, Helvetica, sans-serif;
     
 }
-/* This is only for the header nav bar 
+
+/* This is only for the header nav bar */
+
 
 .header ul {
     list-style-type: none;
@@ -24,7 +27,7 @@ p, h1, h2, h3, li {
     float: right;
   }
   #list1 {
-     background-color: lightblue;
+     background-color: rgb(10, 154, 202);
   }
   
   .header li a {
@@ -38,10 +41,14 @@ p, h1, h2, h3, li {
   .header li a:hover {
    color: rgb(11, 34, 245);
   }
-  */
-/* Center adjusts content
+  
+<<<<<<< HEAD
+ /*Center adjusts content */
+=======
+/* Center adjusts content */
+>>>>>>> 3310bab228e01bcd8262b4b7ef578a520a741086
 .content{
     max-width: 960px;
     margin: auto; 
 }
-*/
+
