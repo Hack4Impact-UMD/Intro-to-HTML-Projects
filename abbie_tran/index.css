@@ -46,3 +46,11 @@ p, h1, h2, h3, li {
     margin: auto; 
 }
 
+img, button {
+  
+}
+
+th,td {
+  border: 1px solid black;
+  border-spacing: 5px;
+}
