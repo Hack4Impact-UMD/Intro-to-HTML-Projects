@@ -5,9 +5,9 @@ Project Requirements:
 
 - Create a new folder with your name in the top-level intro to html project
 
-Click the new folder button (second from left)
+Click the new folder button (second from left) in VSCode
+Stage (+ button), Commit (Checkbox), add a message , and push (reload button in bottom left hand corner)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1dc73f7d-a928-45aa-9815-c7d71f81da48/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1dc73f7d-a928-45aa-9815-c7d71f81da48/Untitled.png)
 
 []()
 
