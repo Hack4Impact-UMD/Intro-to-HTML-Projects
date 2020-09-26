@@ -2,10 +2,115 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
+
         <meta name="viewport" content="width=device-width", initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title> My First Project </title>
+        <title> Mohammed's Personal Site </title>
         <link rel="stylesheet" href="./index.css"></link>
     </head>
+    <body>
+        <header>
+            <form>
+                <input type="search" name="search" placeholder="search">
+                <button type="submit" name="submit">Submit</button> 
+            </form>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav">About</a></li>
+                <li><a href="#projects" class="nav">Projects</a></li>
+                <li><a href="#skills" class="nav">Skills</a></li>
+                <li><a href="#contact" class="nav">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <article>
+                <div class="main">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td rowspan="0"><img src="/mohammedkabir/cropped_headshot.png" alt="my headshot"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p><em>Hi!</em> My name is Mohammed Kabir and I am a computer science student at University of Maryland.</p>
+                                </td>
+                            </tr>
+                        </tbody> 
+                    </table>  
+                </div>
+            </article>
+
+            <article id="about">
+                <div>
+                    <h2 id="about"> About Me </h2>
+                    <p>Hi! I am a registered critical care nurse and an undergraduate computer science 
+                        student at University of Maryland working on a career transition from nursing
+                        to software engineering.
+                        </p>
+                </div>
+            </article>
+
+            <article id="projects">
+                <div>
+                    <h2>Projects</h2>
+                    <p>Due to time constraints between work and school, I have no personal projects yet. 
+                        Sorry, I can't show my class projects here.
+                    </p>
+                </div>
+            </article>
+            
+            <article id="skills">
+                <div>
+                    <table>
+                        <thead>
+                            <th colspan="2">
+                                <h2>Skills I've picked up so far</h2>
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Java</td><td>⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>C</td><td>⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td><td>⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>Git/GitHub</td><td>⭐️⭐️⭐️</td>
+                            </tr>
+                        </tbody>
+                        <caption>Beginner to Expert</caption>
+                    </table>
+                </div>
+            </article>
+
+            <aside>
+                <ul class="header-links">
+                    <li><a href="https://github.com/mekabir" id="github-link">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/mohammedekabir/" id="linkedin-link">LinkedIn</a></li>
+                </ul>
+            </aside>
+        </main>
+        
+        <footer>
+            <div>
+                <table id="contact">
+                    <thead>
+                        <h2>Contact</h2>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Email</td><td>mekabir93@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </footer>
+
+    </body>
     
 </html>
