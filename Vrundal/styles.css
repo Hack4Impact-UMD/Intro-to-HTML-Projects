@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    color: rgb(230, 217, 217);
+}
+
+header{
+    background-color: rgba(48, 46, 46, 0.89);
+}
+
+nav ul{
+    list-style: none;
+    color: rgb(230, 217, 217);
+}
+
+.left{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.right{
+    width: 50%;
+    position: relative;
+    float: right;
+}
