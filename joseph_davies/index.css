@@ -1,0 +1,85 @@
+body {
+    background-color: powderblue;
+    text-align: center;
+
+}
+
+.smaller{
+    font-size: 70%;
+}
+
+#second_smallest{
+    font-size: 40%;
+}
+
+#smallest{
+    font-size: 20%;
+}
+
+.answer{
+    text-align: left;
+    border-style: solid;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 4px;
+}
+
+/* Following navigation bar code ripped from w3schools.com's website layout tutorial. Great site but also don't make fun of me pls I haven't made a website in a long time :( */
+ /* The navbar container */
+ .topnav {
+    color: black;
+    overflow: hidden;
+    background-color: #1a2ec5;
+    width: 100%
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    /*display: flex;
+    justify-content: space-between;*/
+    float: left;
+    display: inline-block;
+    display: -moz-inline-box;
+    zoom: 1;
+    width: 33.3333333333%;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #767fc9;
+  } 
+
+  .dropdown {
+    overflow: hidden;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1a2ec5;
+    color:white;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0px;
+    width: 150%;
+    background-color: #1a2ec5;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #767fc9;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
