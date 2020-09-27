@@ -11,12 +11,8 @@ p, h1, h2, h3, li {
     font-family: Arial, Helvetica, sans-serif;
     
 }
-<<<<<<< HEAD
-/* This is only for the header nav bar */
-=======
 /* This is only for the header nav bar  */
 
->>>>>>> d5ef7bfdeb874eb31d69fba1e5e4fb66d9da6464
 .header ul {
     list-style-type: none;
     margin: 0;

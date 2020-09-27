@@ -1,0 +1,48 @@
+/* Nav bar */
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header li {
+    float: left;
+}
+
+.header a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header li a:hover {
+    background-color: #111;
+}
+
+body {
+    background-image: url("background.jpg");
+    color: white;
+}
+
+#musicList a {
+    color: cyan;
+}
+
+#interests a:hover {
+    color: yellow;
+}
+
+.content p, h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#interests {
+    padding: 10px 20px;
+}
+
