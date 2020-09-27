@@ -3,28 +3,115 @@
     margin: 0;
     padding: 0;
 }
-
-h1, h2{
+body{
+    font-family: sans-serif;
     color: rgb(230, 217, 217);
+    background-color: rgb(51, 51, 51);
 }
 
 header{
-    background-color: rgba(48, 46, 46, 0.89);
+    display: flex;
+    /* background-color: rgb(230, 217, 217); */
+    /* background: linear-gradient(to right, rgb(255, 145, 0), rgb(16, 180, 71)); */
+    /* background-color: rgba(92, 88, 88, 0.9); */
+    background-color: rgb(51, 51, 51);
+    width: 100vw;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    bottom: 100%;
+}
+.logo-container{
+    flex: 1;
+}
+.logo{
+    font-size: 40px;
+    /* color:rgba(48, 46, 46); */
+    margin-left: 10%;
 }
 
-nav ul{
+nav{
+    flex: 1;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
     list-style: none;
+}
+.nav-link{
+    /* color:rgba(48, 46, 46); */
+    /* color: rgb(230, 217, 217); */
     color: rgb(230, 217, 217);
+    font-size: 14px;
+    text-decoration: none;
+    text-shadow: 10px;
+}
+.nav-link:hover{
+    font-size: 12px;
+    transition: all ease 100ms;
 }
 
-.left{
-    width: 50%;
-    position: relative;
-    float: left;
+
+.first-section, .second-section, .third-section{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.first-section-left, .third-section-left{
+    flex: 1;
+    flex-basis: 350px;
+    line-height: 1.75;
+    align-self: center;
+    text-align: center;
+}
+.first-section-right, .third-section-right{
+    height: 90vh;
+    flex: 2;
+}
+.first-section-right{
+    background: url(coding.jpg);
+    flex-basis: 450px;
+    background-size: cover;
+}
+.third-section-right{
+    background: url(https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    flex-basis: 450px;
+    background-size: cover;
 }
 
-.right{
-    width: 50%;
-    position: relative;
-    float: right;
+.second-section-left{
+    height: 90vh;
+    flex: 2;
+    flex-basis: 450px;
+    background: url(coding.jpg);
+    background-size: cover;
+}
+.second-section-right{
+    flex: 1;
+    flex-basis: 350px;
+    line-height: 1.75;
+    align-self: center;
+    text-align: center;
+}
+
+
+table, th, td {
+    /* width: 100%; */
+    border: 1px solid rgb(230, 217, 217);
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+
+.footer-text{
+    margin-top: 16px;
+    text-align: center;
 }
