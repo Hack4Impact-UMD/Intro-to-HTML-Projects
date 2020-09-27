@@ -1,0 +1,67 @@
+
+body
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin:auto;
+    text-align: center;
+}
+p, h1, h2, h3, li {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* header nav bar  */
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+  
+header li {
+    float: right;
+}
+  
+header li a {
+    display: block;
+    color: rgb(22, 90, 238);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+header li a:hover {
+   color: rgb(11, 34, 245);
+}
+  
+/* Center adjusts content */
+.content{
+    max-width: 960px;
+    margin: auto; 
+    justify-content: center;
+}
+
+.misc, table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.misc {
+    max-width: 300px;
+}
+
+th,td {
+    border: 1px solid black;
+    border-spacing: 5px;
+    width: 200px;
+}
+
+#lang {
+    color: red;
+}
+
+#exp {
+    color: green;
+}

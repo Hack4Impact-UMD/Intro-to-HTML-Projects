@@ -1,0 +1,92 @@
+/* https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d80032 */
+header {
+    /*
+    display: block;
+    justify-self: stretch;
+    */
+}
+
+header form {
+    /*
+   float: right;
+   */
+   margin: 5px;
+   padding: 10px;
+   display: block;
+}
+
+em {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h1, h2, h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    text-align: left;
+    color: #edf2f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+nav {
+    border: black;
+    
+
+    
+    margin: 0px;
+    padding: 10px;
+    
+}
+    ul {
+    list-style-type: none;
+    overflow: hidden;
+    /*
+    float: right;
+    */
+    
+    display: inline-flex;
+    
+    margin: 0;
+    padding: 0;
+    background-color: #edf2f4;
+    }
+
+        li {
+            margin: 0px;
+            padding: 20px;
+        }
+
+            li a {
+                color: black;
+                text-decoration: none;
+                padding: 50px;
+                margin: 50px;
+            }
+            li a:hover {
+                background-color: #d80032;
+
+            }
+article {
+    display: flexbox;
+}
+
+td {
+    border-spacing: 15px;
+    padding: 15px;
+
+}
+
+body {
+    background-color: #2b2d42;
+    font-family: monospace;
+    font-size: 20px;
+    color: #edf2f4;
+    max-width: 75%;
+    margin: auto;
+}
