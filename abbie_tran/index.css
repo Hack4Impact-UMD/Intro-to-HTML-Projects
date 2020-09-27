@@ -11,14 +11,7 @@ p, h1, h2, h3, li {
     font-family: Arial, Helvetica, sans-serif;
     
 }
-<<<<<<< HEAD
-/* This is only for the header nav bar  */
-=======
-
 /* This is only for the header nav bar */
-
->>>>>>> afcbba837773c0fd9798765868046ae43484a5ff
-
 .header ul {
     list-style-type: none;
     margin: 0;
@@ -45,14 +38,9 @@ p, h1, h2, h3, li {
   .header li a:hover {
    color: rgb(11, 34, 245);
   }
-<<<<<<< HEAD
   
 /* Center adjusts content */
-=======
 
- /*Center adjusts content */
-
->>>>>>> afcbba837773c0fd9798765868046ae43484a5ff
 .content{
     max-width: 960px;
     margin: auto; 
